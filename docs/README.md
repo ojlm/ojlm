@@ -1,0 +1,4 @@
+- Happiness is a journey, not a destination. So
+- Work like you don‘t need money,
+- Love like you‘ve never been hurt,
+- And dance like no one‘s watching.
