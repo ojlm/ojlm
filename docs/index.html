@@ -10,16 +10,17 @@
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <style>
-    aside {
-      display: none;
+    body.no-sidebar .sidebar,
+    body.no-sidebar .sidebar-toggle {
+        display: none !important;
     }
-    .sidebar-toggle {
-      display: none;
+    body.no-sidebar .content {
+        left: 0px !important;
     }
   </style>
 </head>
 
-<body class="close">
+<body class="no-sidebar">
   <div id="app"></div>
   <!-- <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script> -->
   <script>
