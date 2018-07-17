@@ -1,4 +1,4 @@
 - [目录](../catalog.md)
 - [concepts](../bc/concepts.md)
 - [01.区块链特性](../bc/01.区块链特性.md)
-- [02.Ethereum 开发环境](../bc/02.Ethereum 开发环境.md)
+- [02.Ethereum 开发环境](../bc/02.Ethereum开发环境.md)
