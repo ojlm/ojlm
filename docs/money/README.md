@@ -1,3 +1,3 @@
-- [首页](/)
+- [目录](../catalog.md)
 - [铅笔传奇](../money/i-pencil.md)
 - [货币简史](../money/货币简史.md)
