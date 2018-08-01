@@ -1,8 +1,24 @@
-# 区块链介绍
+### 区块链介绍
 
+1. 起源
+2. 特性
+3. 概念
+4. 发展
+5. 价值
 
 ---
 
-## 特性
+### 起源
 
----?include=docs/bc/01.区块链特性.md
+---
+
+### 白皮书
+
+- [bitcoin](https://bitcoincore.org/bitcoin.pdf)
+
+---
+
+### 源码
+
+- [bitcoin 源码](https://github.com/bitcoin/bitcoin)
+
