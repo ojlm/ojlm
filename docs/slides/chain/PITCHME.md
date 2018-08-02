@@ -1,9 +1,9 @@
 ### 区块链介绍
 
-1. 起源
-2. 特性
-3. 发展
-4. 价值
+- 起源
+- 特性
+- 发展
+- 价值
 
 ---
 
@@ -28,19 +28,15 @@
 
 ### 发展
 
-- 2009.01 比特币发布
-- 2013 Ethereum
-- 2017 EOS
-- 2018 TRON
-
----
+- [List_of_cryptocurrencies](https://en.wikipedia.org/wiki/List_of_cryptocurrencies)
 
 ---
 
 ### 价值
 
-- market: https://coinmarketcap.com/
-- ...
+- 市值: https://www.aicoin.net.cn/currencies
+- 李笑来教你割韭菜, 链接: https://pan.baidu.com/s/1I1ofZI6WK0Bntt18k0NJpA 密码: y433
+- [现实应用场景](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6#%E5%BA%94%E7%94%A8)
 
 ---
 
@@ -58,4 +54,7 @@
 - [EOS](https://github.com/EOSIO/eos)
 - [TRON](https://github.com/tronprotocol/java-tron)
 
+### 反思
 
+- [零和博弈](https://www.zhihu.com/topic/19863374/hot)
+- [有哪些是少数人虚构出来忽悠大众以达到某种目的的事物？](https://www.zhihu.com/question/272297316)
