@@ -5,3 +5,4 @@
 - [区块链](./bc/README.md)
 - [k8s](./k8s/README.md)
 - [Linkerd](./linkerd/README.md)
+- [Algorithm](./algorithm/README.md)
