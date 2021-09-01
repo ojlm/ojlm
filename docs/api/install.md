@@ -2,9 +2,10 @@
 
 ## 下载发布版
 
-相关部署[配置参考](/docs/api/configuration)
+相关部署[配置参考](./configuration)
 
 ### 0.6.0
+
 [百度云下载](https://pan.baidu.com/s/1Eh51T3qY2kV0i5h2TU2wdg)
 
 ## Docker 预览

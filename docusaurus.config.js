@@ -51,11 +51,19 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: '简介',
-              to: '/docs',
+              label: 'Api',
+              to: '/docs/api',
+            },
+            {
+              label: 'Pea',
+              to: '/docs/pea',
+            },
+            {
+              label: 'UI',
+              to: '/docs/ui',
             },
           ],
         },
