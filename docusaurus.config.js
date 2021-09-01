@@ -24,7 +24,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         // { to: '/blog', label: 'Blog', position: 'left' },
         // {
@@ -34,6 +34,7 @@ module.exports = {
         // },
       ],
     },
+    hideableSidebar: true,
     footer: {
       style: 'dark',
       links: [
@@ -41,8 +42,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '简介',
+              to: '/docs',
             },
           ],
         },
@@ -66,6 +67,9 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    googleAnalytics: {
+      trackingID: 'UA-113487425-1',
+    },
   },
   presets: [
     [
@@ -73,15 +77,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/ojlm/ojlm/',
+          // editUrl: 'https://github.com/ojlm/ojlm/edit/master/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/ojlm/ojlm/edit/master/blog/',
-        },
+        // blog: {
+        // showReadingTime: true,
+        // editUrl: 'https://github.com/ojlm/ojlm/edit/master/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
