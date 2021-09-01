@@ -1,9 +1,10 @@
 ---
+id: ui
 slug: /ui
 sidebar_position: 1
 ---
 
-# UI
+# Indigo UI
 
 这一部分是在 [Karate UI](https://github.com/intuit/karate/tree/master/karate-core) 的基础上做了修改和扩展.
 

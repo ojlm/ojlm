@@ -1,9 +1,10 @@
 ---
+id: pea
 slug: /pea
 sidebar_position: 1
 ---
 
-# Pea
+# Galting Pea
 
 ![](./images/banner.jpeg)
 
