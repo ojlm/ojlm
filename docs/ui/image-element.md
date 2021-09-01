@@ -1,5 +1,4 @@
 ---
-slug: /ui/element
 sidebar_position: 4
 ---
 

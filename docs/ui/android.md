@@ -1,5 +1,4 @@
 ---
-slug: /ui/android
 sidebar_position: 5
 ---
 

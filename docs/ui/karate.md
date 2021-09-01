@@ -1,5 +1,4 @@
 ---
-slug: /ui/karate
 sidebar_position: 1
 ---
 
@@ -7,10 +6,9 @@ sidebar_position: 1
 
 ![](./images/driver-hello-world.jpeg)
 
-> 本地执行兼容所有的原生karate指令, 这个文档主要是部分常用指令的中文翻译。
-> 
+> 本地执行兼容所有的原生 karate 指令, 这个文档主要是部分常用指令的中文翻译。
+>
 > 翻译自[karate-core](https://github.com/intuit/karate/blob/3a9d5148c3e0ae167736174527040abb8d7fc536/karate-core/README.md)
-> 
 
 ## 输出&调试
 
@@ -25,7 +23,7 @@ sidebar_position: 1
 
 ### driver.url
 
-获取当前浏览器url
+获取当前浏览器 url
 
 ```
 * match driver.url == webUrlBase + '/page-02'
@@ -43,7 +41,7 @@ sidebar_position: 1
 * def dims = driver.dimensions
 ```
 
-返回json object ```{ x: '#number', y: '#number', width: '#number', height: '#number' }```
+返回 json object `{ x: '#number', y: '#number', width: '#number', height: '#number' }`
 
 ## CSS/XPath 选择器
 
@@ -56,23 +54,22 @@ sidebar_position: 1
 
 ## 通配符(文本)选择器
 
-通过元素的`text content`选择. 表达式以 `{}` 和 `{^}` 为前缀。这种好处选择器的好处是不用理解CSS的`class names`和XPath的文档结构
+通过元素的`text content`选择. 表达式以 `{}` 和 `{^}` 为前缀。这种好处选择器的好处是不用理解 CSS 的`class names`和 XPath 的文档结构
 
 ```html
 <a>点击</a>
 <div>请点击我</div>
 ```
 
-| 示例| 说明 |
-|---|----|
-|click('{}点击')	    | 文本是`点击`的第一个元素(任意标签) |
-|click('{a}点击')     | 第一个`a` 元素且文本是`点击` |
-|click('{^}点击')     | 文本包含`点击`的第一个元素|
-|click('{^span}点击') | 第一个`span`元素且文本包含`点击`|
-|click('{div:2}点击') | 第二个`div`且文本是`点击`|
-|click('{span/a}点击')| 第一个`a`且父元素是个`span`且文本是`点击`|
-|click('{^*:4}点击')  | 第四个元素(任意标签)且文本包含`点击`|
-
+| 示例                  | 说明                                      |
+| --------------------- | ----------------------------------------- |
+| click('{}点击')       | 文本是`点击`的第一个元素(任意标签)        |
+| click('{a}点击')      | 第一个`a` 元素且文本是`点击`              |
+| click('{^}点击')      | 文本包含`点击`的第一个元素                |
+| click('{^span}点击')  | 第一个`span`元素且文本包含`点击`          |
+| click('{div:2}点击')  | 第二个`div`且文本是`点击`                 |
+| click('{span/a}点击') | 第一个`a`且父元素是个`span`且文本是`点击` |
+| click('{^\*:4}点击')  | 第四个元素(任意标签)且文本包含`点击`      |
 
 ## 截图
 
@@ -96,6 +93,7 @@ sidebar_position: 1
 ```
 
 ### mouse
+
 ```
 * mouse().move(100, 200).go()
 * mouse().move('#eg02RightDivId').click()
@@ -107,23 +105,29 @@ sidebar_position: 1
 ```
 
 ### focus
+
 ```
 * focus('.myClass')
 ```
 
 ### clear
+
 ```
 * clear('#myInput')
 ```
 
 ### scroll
+
 窗口滚动到指定元素
+
 ```
 * scroll('#myInput')
 ```
 
 ### highlight
+
 高亮指定元素, 主要用于调试
+
 ```
 * highlight('#eg01DivId')
 * highlightAll('input')
@@ -148,6 +152,7 @@ sidebar_position: 1
 ```
 
 ### value
+
 ```
 * value('.myClass')
 ```
@@ -170,9 +175,10 @@ sidebar_position: 1
 * if (buttonExists && !labelExists) karate.fail('button exists but label does not')
 ```
 
-## 等待/执行JS
+## 等待/执行 JS
 
 ### waitFor
+
 等待某个元素渲染完成
 
 ```
@@ -180,20 +186,26 @@ sidebar_position: 1
 ```
 
 ### waitForUrl
-等待url跳转
+
+等待 url 跳转
+
 ```
 * waitForUrl('/some/path')
 * def actualUrl = waitForUrl('/some/path')
 ```
 
 ### delay
-等待N`毫秒`
+
+等待 N`毫秒`
+
 ```
 * delay(1000)
 ```
 
 ### script
-在浏览器端执行JS(会直接当做字符串传给浏览器执行,注意转义字符)
+
+在浏览器端执行 JS(会直接当做字符串传给浏览器执行,注意转义字符)
+
 ```
 * script("1 + 2")
 * script("console.log('hello world')")
@@ -201,9 +213,9 @@ sidebar_position: 1
 
 ```
 
-## 操作Cookie
+## 操作 Cookie
 
-### 通过 `name` 获取cookie
+### 通过 `name` 获取 cookie
 
 ```
 * def cookie1 = { name: 'foo', value: 'bar' }
@@ -212,7 +224,7 @@ sidebar_position: 1
 
 ### 设置 cookie
 
-跳转url前设置cookie
+跳转 url 前设置 cookie
 
 ```
 * driver 'about:blank'
@@ -243,7 +255,6 @@ sidebar_position: 1
 * assert 3 == script("1 + 2")
 ```
 
-
 ### match
 
 #### 基本匹配(等于、不等)
@@ -265,15 +276,16 @@ sidebar_position: 1
 #### 文本匹配
 
 等价 `assert`
+
 ```
 * match hello == 'Hello World!'
 * assert hello == 'Hello World!'
 ```
 
 是否包含
+
 ```
 * def hello = 'Hello World!'
 * match hello contains 'World'
 * match hello !contains 'blah'
 ```
-

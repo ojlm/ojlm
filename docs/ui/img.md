@@ -1,5 +1,4 @@
 ---
-slug: /ui/img
 sidebar_position: 3
 ---
 

@@ -1,11 +1,10 @@
 ---
-slug: /ui/extend
 sidebar_position: 2
 ---
 
 # 扩展指令
 
-适用其他场景扩展指令, 1. 多人协作和多人会议  2. Electron 应用多 webview 切换操作
+适用其他场景扩展指令, 1. 多人协作和多人会议 2. Electron 应用多 webview 切换操作
 
 ## 多个 driver
 

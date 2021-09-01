@@ -1,5 +1,4 @@
 ---
-slug: /ui/system
 sidebar_position: 3
 ---
 
@@ -60,7 +59,7 @@ def highlight(x: Int, y: Int, width: Int, height: Int): System // 高亮屏幕�
 
 ## 示例
 
-````
+```
 * print sys.screenInfo()
 * sys.screenshot()
 * print sys.windowInfo('idea')
@@ -71,7 +70,7 @@ def highlight(x: Int, y: Int, width: Int, height: Int): System // 高亮屏幕�
 * sys.crop(200, 200).highlight().screenshot()
 * sys.crop(0.5).highlight().screenshot()
 * print sys.crop(0.5).ocrExtract()
-````
+```
 
 ```
 * sys.crop().detect()
